@@ -1,8 +1,24 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using CV.Models
+@model IEnumerable<Feedback>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Feedback</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Sender</th>
+            <th>Title</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var feedback in Model)
+        {
+            <tr>
+                <td>@feedback.Sender</td>
+                <td>@feedback.Title</td>
+                <td>@feedback.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>

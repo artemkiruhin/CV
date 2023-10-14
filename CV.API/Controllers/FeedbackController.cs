@@ -8,9 +8,9 @@ namespace CV.API.Controllers {
     public class FeedbackController : ControllerBase {
 
         [HttpGet(Name = "All")]
-        public IActionResult GetAll() {
+        public IEnumerable<CV.Models.Feedback> GetAll() {
             using var db = new FeedbackDbContext();
-            return Ok(db.GetAll());
+            return db.GetAll();
         }
 
         [HttpGet("{id}")] // Add a route parameter for the 'id'
