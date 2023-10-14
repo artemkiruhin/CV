@@ -18,6 +18,14 @@ namespace CV.Frontend.Controllers {
             return View();
         }
 
+        public IActionResult AboutMe() {
+            return View();
+        }
+
+        public IActionResult Skills() {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error() {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

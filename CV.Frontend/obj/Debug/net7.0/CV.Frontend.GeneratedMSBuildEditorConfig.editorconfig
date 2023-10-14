@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Contacts/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/AboutThisProject.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFRoaXNQcm9qZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
