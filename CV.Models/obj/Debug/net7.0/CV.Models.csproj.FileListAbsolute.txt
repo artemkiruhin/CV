@@ -1,0 +1,12 @@
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\bin\Debug\net7.0\CV.Models.deps.json
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\bin\Debug\net7.0\CV.Models.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\bin\Debug\net7.0\CV.Models.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.csproj.AssemblyReference.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.AssemblyInfoInputs.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.AssemblyInfo.cs
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.csproj.CoreCompileInputs.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\refint\CV.Models.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\CV.Models.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\CV.Models\obj\Debug\net7.0\ref\CV.Models.dll

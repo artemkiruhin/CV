@@ -16,8 +16,26 @@ namespace Database {
 
         public DbSet<CV.DatabaseModels.Feedback> Feedbacks { get; set; }
 
-        public IEnumerable<CV.Models.Feedback> GetAll () =>
-            (IEnumerable<CV.Models.Feedback>)Feedbacks;
+        public IEnumerable<CV.Models.Feedback> GetAll () {
+            var dbFeedbacks = Feedbacks.ToList();
+            var modelFeedbacks = new List<CV.Models.Feedback>();
+
+            foreach ( var feedback in dbFeedbacks )
+            {
+                var tmpModelFeedback = new CV.Models.Feedback() { 
+                    Id = feedback.Id,
+                    Sender = feedback.Sender,
+                    Message = feedback.Message,
+                    Title = feedback.Title,
+                    Created = feedback.Created
+                };
+
+                modelFeedbacks.Add(tmpModelFeedback);
+            }
+
+            return (IEnumerable<CV.Models.Feedback>)modelFeedbacks;
+
+        }
 
         public CV.Models.Feedback? GetFeedbackById(int id) {
             var dbFeedback = _GetFeedbackById(id);
@@ -47,7 +65,7 @@ namespace Database {
             }
         }
 
-        public void AddFeedback (CV.Models.Feedback feedback) {
+        public void AddFeedback(CV.Models.Feedback feedback) {
             var feedbackToDb = new CV.DatabaseModels.Feedback()
             {
                 Sender = feedback.Sender,
@@ -55,9 +73,14 @@ namespace Database {
                 Message = feedback.Message,
                 Created = feedback.Created
             };
-            Feedbacks.Add(feedbackToDb);
-            SaveChanges();
+
+            using (var db = new FeedbackDbContext()) // Assuming FeedbackDbContext is your database context
+            {
+                db.Feedbacks.Add(feedbackToDb); // Assuming Feedbacks is your DbSet<Feedback> property in the context
+                db.SaveChanges();
+            }
         }
+
 
         private CV.DatabaseModels.Feedback? _GetFeedbackById(int id) {
             var dbFeedback = Feedbacks.FirstOrDefault(x => x.Id == id);

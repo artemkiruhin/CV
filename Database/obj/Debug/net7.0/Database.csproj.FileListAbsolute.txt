@@ -1,0 +1,17 @@
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\Database.deps.json
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\Database.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\Database.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\CV.DatabaseModels.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\CV.Models.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\CV.DatabaseModels.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\bin\Debug\net7.0\CV.Models.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.csproj.AssemblyReference.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.AssemblyInfoInputs.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.AssemblyInfo.cs
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.csproj.CoreCompileInputs.cache
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.csproj.CopyComplete
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\refint\Database.dll
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\Database.pdb
+D:\Visual Studio projects\Pet-Projects\WEB\CV.Frontend\Database\obj\Debug\net7.0\ref\Database.dll
