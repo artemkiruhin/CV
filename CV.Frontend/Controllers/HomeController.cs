@@ -19,15 +19,15 @@ namespace CV.Frontend.Controllers {
             return View(feedbacks);
         }
 
-        public IActionResult AboutThisProject() {
-            return View();
-        }
-
-        public IActionResult AboutMe() {
-            return View();
-        }
-
         public IActionResult Skills() {
+            return View();
+        }
+
+        public IActionResult Contacts() {
+            return View();
+        }
+
+        public IActionResult Connect() {
             return View();
         }
 

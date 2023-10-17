@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\navigation.js",
+      "PackagePath": "staticwebassets\\js\\navigation.js"
     },
     {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\site.js",

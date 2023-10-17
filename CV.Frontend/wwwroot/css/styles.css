@@ -1,0 +1,275 @@
+*,p,a,span,h1,h2,button {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #101010;
+    color: #a0a0a0;
+}
+
+.container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10%;
+
+    align-items: center;
+}
+
+.nav_logo {
+    font-weight: 900;
+    color: #fff;
+    font-size: 28px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_el {
+    margin: 0 30px 0 0;
+    list-style: none;
+    font-family: inherit;
+}
+.nav_el:last-of-type {
+    margin: 0;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+    transition: 0.3s all;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.link_active {
+    color: #fff;
+}
+
+.nav_link:hover {
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.btn_changetheme {
+    background-color: transparent;
+    font-family: inherit;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.btn_changetheme:hover {
+    cursor: pointer;
+    color: #a0a0a0;
+    transition: 0.3s all;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+
+
+.text {
+    max-width: 70%;
+    color: #fff;
+    text-align: justify;
+}
+.subtitle {
+    max-width: 30%;
+}
+
+.contact_list {
+    margin: 0;
+}
+.contact_row {
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    margin: 5% auto 0 auto;
+    align-items: center;
+    text-align: center;
+    display: block;
+
+    width: 200px;
+    color: #fff;
+    transition: 0.5s all;
+    
+}
+.contact_text_link {
+    max-width: none;
+    color: inherit;
+    font-weight: 300;
+    text-decoration: none;
+    font-weight: inherit;
+}
+.contact_img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin: 0;
+    
+}
+.contact:hover {
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 20px;
+    transition: 0.5s all;
+    color: #101010;
+    font-weight: 800;
+}
+.section_v2 {
+    margin: 10% auto;
+    text-align: center;
+    align-items: center;
+}
+
+.skill_text {
+    text-align: justify;
+}
+.skill_title {
+    font-family: inherit;
+    color: #fff;
+}
+
+.skill {
+    text-align: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.header {
+    text-align: center;
+}
+.header_title {
+    color: #fff;
+    font-weight: 900;
+}
+
+.footer {
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+h4 a {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.3s all
+}
+h4 a:hover {
+    color: #a0a0a0;
+    text-decoration: underline;
+    transition: 0.3s all;
+}
+
+
+
+.btn_submit {
+    background-color: transparent;
+    font-family: inherit;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.btn_submit:hover {
+    cursor: pointer;
+    color: #101010;
+    transition: 0.3s all;
+    background-color: #fff;
+}
+
+
+.input, .textarea {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    height: auto;
+    resize: vertical;
+    width: 70%;
+    transition: 0.3s all;
+}
+
+
+
+
+
+@media screen and (max-width: 1828px) {
+    .container {
+        max-width: 40%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .nav_list {
+        display: block;
+    }
+    .nav_el {
+        margin: 0;
+    }
+    .section {
+        display: block;
+        max-width: none;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .nav_list {
+        display: block;
+    }
+    .nav_el {
+        margin: 5% 0;
+    }
+    .section {
+        display: block;
+        max-width: none;
+        align-items: center;
+        text-align: center;
+    }
+}
+

@@ -24,12 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/AboutThisProject.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFRoaXNQcm9qZWN0LmNzaHRtbA==
+[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/Connect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25uZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Home/Skills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTa2lsbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio projects/Pet-Projects/WEB/CV.Frontend/CV.Frontend/Views/Shared/Error.cshtml]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x0tgeu4OIB8CnZLONqpDtxDjDoxNoWM+tBPyuvaRboM=",
+  "Hash": "mtyxKIkMLuC//WIw824EpLsENVNlPNL0QXjSPuP9+rc=",
   "Source": "CV.Frontend",
   "BasePath": "_content/CV.Frontend",
   "Mode": "Default",
@@ -80,6 +80,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\styles.css",
+      "SourceId": "CV.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\",
+      "BasePath": "_content/CV.Frontend",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\favicon.ico",
       "SourceId": "CV.Frontend",
       "SourceType": "Discovered",
@@ -95,6 +112,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\navigation.js",
+      "SourceId": "CV.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\",
+      "BasePath": "_content/CV.Frontend",
+      "RelativePath": "js/navigation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\navigation.js"
     },
     {
       "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\site.js",
