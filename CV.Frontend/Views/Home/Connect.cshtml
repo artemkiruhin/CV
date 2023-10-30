@@ -1,6 +1,5 @@
-﻿
-
-
+﻿@using CV.Frontend.ViewModels;
+@model FeedbackViewModel;
 
 <header class="header">
     <h2 class="header_title">
@@ -8,24 +7,25 @@
     </h2>
 </header>
 
-<form>
+<form asp-action="OnFeedback" asp-controller="Contacts">
     <section class="section">
         <h2 class="subtitle">
             Тема сообщения
         </h2>
-        <input class="input" type="text" placeholder="Например: реклама, оффер">
+        <input asp-for="Title" class="input" type="text" placeholder="Например: реклама, оффер">
+        
     </section>
     <section class="section">
         <h2 class="subtitle">
             Сообщение
         </h2>
-        <textarea class="textarea" type="text"></textarea>
+        <textarea asp-for="Message" class="textarea" type="text"></textarea>
     </section>
     <section class="section">
         <h2 class="subtitle">
             Ваша почта
         </h2>
-        <input class="input" type="email">
+        <input asp-for="Mail" class="input" type="email">
     </section>
     <button type="submit" class="btn_submit">Отправить</button>
 </form>
