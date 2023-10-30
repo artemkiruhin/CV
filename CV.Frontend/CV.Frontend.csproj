@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\gh.png" />
+    <Content Remove="wwwroot\images\Tg.png" />
+    <Content Remove="wwwroot\images\Vk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\gh.png" />
+    <None Include="wwwroot\images\Tg.png" />
+    <None Include="wwwroot\images\Vk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

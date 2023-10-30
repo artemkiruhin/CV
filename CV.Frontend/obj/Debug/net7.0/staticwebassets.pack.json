@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\images\\img.resx",
+      "PackagePath": "staticwebassets\\images\\img.resx"
+    },
+    {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\navigation.js",
       "PackagePath": "staticwebassets\\js\\navigation.js"
     },

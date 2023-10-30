@@ -1,7 +1,8 @@
 class Navigator {
     static indexOfActiveLink = localStorage.getItem('activeLinkIndex') || 0;
 
-    clicked = () => {
+    
+    clickedHtml = () => {
         let links = document.getElementsByClassName('nav_link');
 
         for (let i = 0; i < links.length; i++) {
@@ -16,6 +17,20 @@ class Navigator {
         }
 
         links[Navigator.indexOfActiveLink].classList.add('link_active');
+    }
+
+    clicked = () => {
+        let links = document.getElementsByClassName('nav_link');
+
+        for (let i = 0; i < links.length; i++) {
+            links[i].addEventListener('click', function () {
+                for (let j = 0; j < links.length; j++) {
+                    links[j].classList.remove('link_active');
+                }
+                this.classList.add('link_active');
+            });
+        }
+
     }
 }
 

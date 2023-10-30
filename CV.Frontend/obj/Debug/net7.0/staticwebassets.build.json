@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mtyxKIkMLuC//WIw824EpLsENVNlPNL0QXjSPuP9+rc=",
+  "Hash": "54WpZgoar3Luy+cbWyjeefpc46fhBzvX13IgYIaktns=",
   "Source": "CV.Frontend",
   "BasePath": "_content/CV.Frontend",
   "Mode": "Default",
@@ -112,6 +112,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\images\\img.resx",
+      "SourceId": "CV.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\",
+      "BasePath": "_content/CV.Frontend",
+      "RelativePath": "images/img.resx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img.resx"
     },
     {
       "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\navigation.js",

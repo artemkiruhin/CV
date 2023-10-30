@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV.Frontend", "CV.Frontend\CV.Frontend.csproj", "{38BE6567-C531-48C2-BFAA-6614BE6136C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV.Frontend", "CV.Frontend\CV.Frontend.csproj", "{38BE6567-C531-48C2-BFAA-6614BE6136C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV.API", "CV.API\CV.API.csproj", "{4BA09765-21CB-4027-A61C-28D2F4CDD385}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV.API", "CV.API\CV.API.csproj", "{4BA09765-21CB-4027-A61C-28D2F4CDD385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{A7DA36A2-8E53-4101-A38D-75016F56955C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{A7DA36A2-8E53-4101-A38D-75016F56955C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8CCB19B4-5C5B-4E6D-9FA0-459DD1C1DFB0}"
 EndProject
@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{54129391-C908-4DDB-A2DD-7DEB1C495E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV.Models", "CV.Models\CV.Models.csproj", "{7BDAC38F-D599-41D8-9224-3703D09BA465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV.Models", "CV.Models\CV.Models.csproj", "{7BDAC38F-D599-41D8-9224-3703D09BA465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CV.DatabaseModels", "CV.DatabaseModels\CV.DatabaseModels.csproj", "{369E79C1-D332-4668-9785-4540F3C91FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV.DatabaseModels", "CV.DatabaseModels\CV.DatabaseModels.csproj", "{369E79C1-D332-4668-9785-4540F3C91FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
