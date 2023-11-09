@@ -7,12 +7,24 @@
     </h2>
 </header>
 
-<form asp-action="OnFeedback" asp-controller="Contacts">
+@{
+    
+}
+<div>
+    <span asp-validation-for="Title"></span>
+
+    <span asp-validation-for="Message"></span>
+
+    <span asp-validation-for="Mail"></span>
+</div>
+
+<form asp-action="OnFeedback" asp-controller="Contacts" method="post">
     <section class="section">
         <h2 class="subtitle">
             Тема сообщения
         </h2>
         <input asp-for="Title" class="input" type="text" placeholder="Например: реклама, оффер">
+        <span asp-validation-for="Title" class="text-danger"></span>
         
     </section>
     <section class="section">
@@ -20,12 +32,14 @@
             Сообщение
         </h2>
         <textarea asp-for="Message" class="textarea" type="text"></textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
     </section>
     <section class="section">
         <h2 class="subtitle">
             Ваша почта
         </h2>
         <input asp-for="Mail" class="input" type="email">
+        <span asp-validation-for="Mail" class="text-danger"></span>
     </section>
     <button type="submit" class="btn_submit">Отправить</button>
 </form>

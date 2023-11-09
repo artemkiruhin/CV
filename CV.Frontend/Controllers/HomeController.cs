@@ -4,6 +4,8 @@ using CV.API;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using CV.API.Controllers;
+using CV.Frontend.ViewModels;
+using System.Net.WebSockets;
 
 namespace CV.Frontend.Controllers {
     public class HomeController : Controller {
@@ -27,8 +29,8 @@ namespace CV.Frontend.Controllers {
             return View();
         }
 
-        public IActionResult Connect() {
-            return View();
+        public IActionResult Connect(FeedbackViewModel feedback) {
+            return View(feedback);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

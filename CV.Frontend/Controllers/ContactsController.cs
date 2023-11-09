@@ -14,9 +14,11 @@ namespace CV.Frontend.Controllers {
 
         [HttpPost]
         public IActionResult OnFeedback(FeedbackViewModel feedbackVM) {
-            if (feedbackVM == null)
+
+            
+            if (!ModelState.IsValid)
             {
-                
+                return RedirectToAction(actionName: "Connect", controllerName: "Home", routeValues: feedbackVM);
             }
             else
             {
@@ -36,9 +38,6 @@ namespace CV.Frontend.Controllers {
                     Created = DateTime.Now
                 };
 
-                var client = new HttpClient();
-
-                var context = new RouteData();
 
                 var controller = new CV.API.Controllers.FeedbackController();
 
