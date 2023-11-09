@@ -16,12 +16,23 @@ namespace CV.Frontend.Controllers {
         public IActionResult OnFeedback(FeedbackViewModel feedbackVM) {
 
             
+
             if (!ModelState.IsValid)
             {
-                return RedirectToAction(actionName: "Connect", controllerName: "Home", routeValues: feedbackVM);
+                Console.WriteLine("1");
+
+                if (feedbackVM.Title == null)
+                    feedbackVM.Title = string.Empty;
+                if (feedbackVM.Message == null)
+                    feedbackVM.Message = string.Empty;
+                if (feedbackVM.Mail == null)
+                    feedbackVM.Mail = string.Empty;
+                
+                return View("Index", feedbackVM);
             }
             else
             {
+                Console.WriteLine("2");
                 var feedbackModel = new CV.Models.Feedback()
                 {
                     Title = feedbackVM.Title,
@@ -45,7 +56,7 @@ namespace CV.Frontend.Controllers {
 
                 Console.WriteLine(feedbackDbModel.Id);
 
-                return RedirectToAction(controllerName: "Contacts", actionName: "Success");
+                return View("Success");
             }
 
             return RedirectToAction(controllerName: "Home", actionName: "Index");

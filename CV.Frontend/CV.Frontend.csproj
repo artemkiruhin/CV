@@ -10,12 +10,18 @@
     <Content Remove="wwwroot\images\gh.png" />
     <Content Remove="wwwroot\images\Tg.png" />
     <Content Remove="wwwroot\images\Vk.png" />
+    <Content Remove="wwwroot\js\FormValidator.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\FormValidator.js" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\images\gh.png" />
     <None Include="wwwroot\images\Tg.png" />
     <None Include="wwwroot\images\Vk.png" />
+    <None Include="wwwroot\js\FormValidator.js" />
   </ItemGroup>
 
   <ItemGroup>

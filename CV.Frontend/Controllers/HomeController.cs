@@ -29,6 +29,7 @@ namespace CV.Frontend.Controllers {
             return View();
         }
 
+        [HttpGet]
         public IActionResult Connect(FeedbackViewModel feedback) {
             return View(feedback);
         }
