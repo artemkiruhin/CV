@@ -14,13 +14,8 @@ namespace CV.Frontend.Controllers {
 
         [HttpPost]
         public IActionResult OnFeedback(FeedbackViewModel feedbackVM) {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View("Index", feedbackVM);
-            }
-            else
-            {
-                /*
                 var feedbackModel = new CV.Models.Feedback()
                 {
                     Title = feedbackVM.Title,
@@ -29,23 +24,12 @@ namespace CV.Frontend.Controllers {
                     Created = DateTime.Now
                 };
 
-                var feedbackDbModel = new CV.DatabaseModels.Feedback()
-                {
-                    Title = feedbackModel.Title,
-                    Message = feedbackModel.Message,
-                    Sender = feedbackModel.Sender,
-                    Created = DateTime.Now
-                };
-
-
                 var controller = new CV.API.Controllers.FeedbackController();
-
                 controller.AddFeedback(feedbackModel);
 
-                Console.WriteLine(feedbackDbModel.Id);
-                */
                 return View("Success");
             }
+            return View("Index", feedbackVM);
         }
     }
 }

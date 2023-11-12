@@ -6,44 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ind</title>
 
+    <link rel="stylesheet" href="~/css/sitestyle.css" asp-append-version="true">
+
     <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
 </head>
 
 <body>
     <div class="container">
-        <nav class="nav">
+        <nav>
             <h1 class="nav_logo">
                 AK
             </h1>
-            <ul class="nav_list">
-                <li class="nav_el">
-                    <a asp-area="" asp-controller="Home" asp-action="Index" class="nav_link link_active">
+            <ul>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="nav_link">
                         Главная
                     </a>
                 </li>
-                <li class="nav_el">
+                <li>
                     <a asp-area="" asp-controller="Home" asp-action="Contacts" class="nav_link">
                         Контакты
                     </a>
                 </li>
-                <li class="nav_el">
+                <li>
                     <a asp-area="" asp-controller="Home" asp-action="Skills" class="nav_link">
                         Навыки
                     </a>
                 </li>
             </ul>
 
+            <!--
             <button class="nav_el btn btn_changetheme">
                 Сменить тему
             </button>
+            -->
         </nav>
-        <main class="content">
-    <div class="container">
+    
         <main role="main">
             @RenderBody()
-        </main>
-    </div>
-
     </main>
     <footer class="footer">
         <section class="footer_section">
@@ -55,11 +55,10 @@
         </section>
     </footer>
 
-    <script src="~/js/navigation.js"></script>
+    
     </div>
 
-
-
+    <script src="~/js/navigation.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

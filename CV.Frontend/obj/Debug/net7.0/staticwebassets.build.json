@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "54WpZgoar3Luy+cbWyjeefpc46fhBzvX13IgYIaktns=",
+  "Hash": "OWsyj8FjYi+E/4EuNXrQc3xovGU5u8x45jCK3eiJ+/Q=",
   "Source": "CV.Frontend",
   "BasePath": "_content/CV.Frontend",
   "Mode": "Default",
@@ -78,6 +78,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\sitestyle.css",
+      "SourceId": "CV.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\",
+      "BasePath": "_content/CV.Frontend",
+      "RelativePath": "css/sitestyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sitestyle.css"
     },
     {
       "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\styles.css",
@@ -163,6 +180,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\theme.js",
+      "SourceId": "CV.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\",
+      "BasePath": "_content/CV.Frontend",
+      "RelativePath": "js/theme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\theme.js"
     },
     {
       "Identity": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

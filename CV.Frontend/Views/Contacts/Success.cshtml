@@ -1,14 +1,38 @@
-﻿
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ind</title>
+
+    <link rel="stylesheet" href="~/css/sitestyle.css" asp-append-version="true">
+
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
+</head>
+<body>
 <header class="header">
     <h2 class="header_title">
         Ваше сообщение было успешно отправлено мне!
     </h2>
+
+
+
+    <h2 class="header_title">
+        Ожидайте ответа в скором времени!
+    </h2>
+
+    <a asp-action="Index" asp-controller="Home" class="return_link">
+        Вернуться на главную
+    </a>
 </header>
 
-<h2 class="header_title">
-    Ожидайте ответа в скором времени!
-</h2>
+    <script src="~/js/navigation.js"></script>
 
-<a asp-action="Index" asp-controller="Home">
-    Вернуться на главную
-</a>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+</body>
+</html>

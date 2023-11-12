@@ -10,7 +10,7 @@ using System.Net.WebSockets;
 namespace CV.Frontend.Controllers {
     public class HomeController : Controller {
         private readonly ILogger<HomeController> _logger;
-        private readonly FeedbackController _feedbackController = new FeedbackController();
+        private readonly FeedbackController _feedbackController = new();
         public HomeController(ILogger<HomeController> logger) {
             _logger = logger;
         }

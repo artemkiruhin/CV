@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\sitestyle.css",
+      "PackagePath": "staticwebassets\\css\\sitestyle.css"
+    },
+    {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
       "Id": "D:\\Visual Studio projects\\Pet-Projects\\WEB\\CV.Frontend\\CV.Frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
