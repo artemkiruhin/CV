@@ -1,289 +1,361 @@
-*, p, a, span, h1, h2, button {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:root {
+    --textarea-size: 16px;
+    --text-size: 20px;
+    --header-size: 32px;
+    --nav-mobile-size: 40px;
+    --dark-text-color: #a0a0a0;
+    --dark-bgr-color: #101010;
+    --dark-text-main-color: #fff;
 }
 
-
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #101010;
-    color: #a0a0a0;
+    background-color: var(--dark-bgr-color);
 }
 
-.container {
-    max-width: 40%;
-    margin: 0 auto;
-    padding: 20px;
+a, .link, p, input {
+    font-size: var(--text-size);
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10%;
-    align-items: center;
+textarea {
+    font-size: var(--textarea-size);
 }
 
-.nav_logo {
-    font-weight: 900;
-    color: #fff;
-    font-size: 28px;
-}
-
-.nav_list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav_el {
-    margin: 0 30px 0 0;
-    list-style: none;
-    font-family: inherit;
-}
-
-    .nav_el:last-of-type {
-        margin: 0;
-    }
-
-.nav_link {
-    text-decoration: none;
-    font-weight: 600;
-    color: inherit;
-    transition: 0.3s all;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.link_active {
-    color: #fff;
-}
-
-.nav_link:hover {
-    color: #fff;
+.link {
+    color: var(--dark-text-color);
     transition: 0.3s all;
 }
 
-.btn_changetheme {
-    background-color: transparent;
-    font-family: inherit;
-    padding: 20px;
-    border: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    transition: 0.3s all;
-}
-
-    .btn_changetheme:hover {
-        cursor: pointer;
-        color: #a0a0a0;
+    .link:hover {
+        color: var(--dark-text-main-color);
         transition: 0.3s all;
     }
 
-.section {
-    display: flex;
-    justify-content: space-between;
-    margin: 10% auto;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-
-.text {
-    max-width: 70%;
-    color: #fff;
-    text-align: justify;
-}
-
-.subtitle {
-    max-width: 30%;
-}
-
-.contact_list {
+header {
     margin: 0;
 }
 
-.contact_row {
+    header h1 {
+        margin: 10% auto;
+        text-align: center;
+        font-size: var(--header-size);
+        color: var(--dark-text-main-color);
+    }
+
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+    nav h1 {
+        margin: 0;
+        color: var(--dark-text-main-color);
+        font-size: var(--header-size);
+        font-weight: 900;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+        nav ul li {
+            padding: 0;
+            margin-right: 20px;
+        }
+
+            nav ul li:last-of-type {
+                margin-right: 0;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                padding: 20px;
+            }
+
+section {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+
+    section h2 {
+        width: 30%;
+        font-weight: 300;
+        color: var(--dark-text-color);
+        font-size: var(--header-size);
+    }
+
+    section p {
+        width: 70%;
+        font-weight: 500;
+        text-align: justify;
+        font-size: var(--text-size);
+        color: var(--dark-text-main-color);
+    }
+
+.connect {
+    padding: 20px;
+    text-align: center;
+}
+
+    .connect section {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+
+        .connect section h3 {
+            width: 30%;
+            font-weight: 300;
+            color: var(--dark-text-color);
+            font-size: var(--header-size);
+        }
+
+        .connect section input, .connect section textarea {
+            width: 60%;
+            margin: 0;
+            background: transparent;
+            border: var(--dark-text-color) 1px solid;
+            font-weight: 300;
+            resize: vertical;
+            color: var(--dark-text-main-color);
+            text-align: center;
+            transition: 0.3s all;
+        }
+
+            .connect section input:active, .connect section textarea:active {
+                border: #fff 4px solid;
+                transition: 0.3s all;
+            }
+
+        .connect section span {
+            width: 20%;
+            margin: 0 0 0 5%;
+            font-weight: 300;
+            color: var(--dark-text-main-color);
+            font-size: var(--text-size);
+        }
+
+    .connect button {
+        margin: 0 auto;
+        background: transparent;
+        border: var(--dark-text-color) 1px solid;
+        font-weight: 100;
+        font-size: var(--text-size);
+        color: var(--dark-text-color);
+        transition: 0.3s all;
+    }
+
+        .connect button:hover {
+            border: var(--dark-text-main-color) 1px solid;
+            color: var(--dark-text-main-color);
+            cursor: pointer;
+            transition: 0.3s all;
+        }
+
+
+.contacts {
+    align-items: center;
+    text-align: center;
 }
 
 .contact {
-    margin: 5% auto 0 auto;
-    align-items: center;
-    text-align: center;
-    display: block;
-    width: 200px;
-    color: #fff;
-    transition: 0.5s all;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--dark-bgr-color);
+    margin-bottom: 10%;
+    transition: 0.4s all;
 }
 
-.contact_text_link {
-    max-width: none;
-    color: inherit;
-    font-weight: 300;
-    text-decoration: none;
-    font-weight: inherit;
-}
-
-.contact_img {
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50%;
-    margin: 0;
-}
-
-.contact:hover {
-    background-color: #fff;
-    border-radius: 5%;
-    padding: 20px;
-    transition: 0.5s all;
-    color: #101010;
-    font-weight: 800;
-}
-
-.section_v2 {
-    margin: 10% auto;
-    text-align: center;
-    align-items: center;
-}
-
-.skill_text {
-    text-align: justify;
-}
-
-.skill_title {
-    font-family: inherit;
-    color: #fff;
-}
-
-.skill {
-    text-align: center;
-    align-items: center;
-    margin: 5% auto;
-}
-
-.header {
-    text-align: center;
-}
-
-.header_title {
-    color: #fff;
-    font-weight: 900;
-}
-
-.footer {
-    margin-top: 150px;
-    align-items: center;
-    text-align: center;
-}
-
-h4 a {
-    color: #fff;
-    font-weight: 900;
-    text-decoration: none;
-    transition: 0.3s all
-}
-
-    h4 a:hover {
-        color: #a0a0a0;
-        text-decoration: underline;
-        transition: 0.3s all;
-    }
-
-
-
-.btn_submit {
-    background-color: transparent;
-    font-family: inherit;
-    padding: 20px;
-    border: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    transition: 0.3s all;
-}
-
-    .btn_submit:hover {
+    .contact:hover {
+        padding: 20px 0;
         cursor: pointer;
-        color: #101010;
-        transition: 0.3s all;
-        background-color: #fff;
+        transition: 0.4s all;
+    }
+
+    .contact a {
+        text-decoration: none;
+    }
+
+    .contact img {
+        width: 150px;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+
+    .contact h3 {
+        color: var(--dark-text-main-color);
     }
 
 
-.input, .textarea {
-    border: none;
-    background-color: transparent;
-    font-size: 20px;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-    height: auto;
-    resize: vertical;
-    width: 70%;
-    transition: 0.3s all;
+
+footer {
+    margin-top: 50%;
+    align-items: center;
+    color: var(--dark-text-main-color);
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+    footer h2 {
+        font-weight: 500;
+    }
+
+@media screen and (max-width: 1352px) {
+    .connect section h3 {
+        font-size: var(--text-size);
+    }
+
+    .connect section span {
+        font-size: var(--textarea-size);
+    }
 }
 
 
 
+@media screen and (max-width: 1119px) {
 
-
-@media screen and (max-width: 1828px) {
     .container {
-        max-width: 80%;
-        margin: 0 auto;
-        padding: 20px;
+        width: 90%;
     }
-    /*
-    .nav {
+
+    section {
+        padding: 0;
+    }
+
+
+    .connect section {
         display: block;
         align-items: center;
-        text-align: center;
     }
-    .nav_list {
-        display: block;
+
+        .connect section h3 {
+            font-size: var(--text-size);
+        }
+
+        .connect section span {
+            font-size: var(--textarea-size);
+        }
+
+        .connect section h3,
+        .connect section input, .connect section textarea,
+        .connect section span {
+            width: 100%;
+            padding: 0;
+        }
+
+    .connect section {
+        padding: 0;
+        margin: 0 0 5% 0;
     }
-    .nav_el {
-        margin: 0;
-    }
-    .section {
-        display: block;
-        max-width: none;
-        align-items: center;
-        text-align: center;
-    }
-    */
+
+        .connect section h3 {
+            margin: 0 0 1% 0;
+            font-size: var(--header-size);
+        }
+
+        .connect section input, .connect section textarea {
+            margin: 0 0 1% 0;
+            font-size: var(--text-size);
+        }
+
+        .connect section span {
+            margin: 0;
+            font-size: var(--text-size);
+        }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 950px) {
+    nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+        nav ul {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+
+            nav ul li {
+                margin: 5% 0;
+            }
+
+                nav ul li a {
+                    font-size: var(--nav-mobile-size);
+                }
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+
+    section {
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+        section h2,
+        p {
+            margin: 0 auto;
+        }
+
+        section p {
+            text-align: center;
+        }
+}
+
+@media screen and (max-width: 550px) {
     .container {
-        max-width: 70%;
-        margin: 0 auto;
-        padding: 20px;
+        width: 100%;
     }
 
-    .nav {
+    section {
         display: block;
-        align-items: center;
         text-align: center;
-    }
-
-    .nav_list {
-        display: block;
-    }
-
-    .nav_el {
-        margin: 5% 0;
-    }
-
-    .section {
-        display: block;
-        max-width: 100%;
         align-items: center;
-        text-align: center;
+        margin-top: 20%;
     }
 
-    .text {
-        align-items: center;
+        section h2 {
+            font-size: var(--header-size);
+        }
+
+        section h2,
+        p {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+        }
+
+        section p {
+            text-align: center;
+            font-size: var(--text-size);
+        }
+
+    .connect button {
+        font-size: var(--header-size);
     }
 }

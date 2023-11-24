@@ -6,54 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ind</title>
 
-    <link rel="stylesheet" href="~/css/sitestyle.css" asp-append-version="true">
-
     <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
 </head>
 
 <body>
     <div class="container">
-        <nav>
-            <h1 class="nav_logo">
-                AK
-            </h1>
-            <ul>
-                <li>
-                    <a asp-area="" asp-controller="Home" asp-action="Index" class="nav_link">
-                        Главная
-                    </a>
-                </li>
-                <li>
-                    <a asp-area="" asp-controller="Home" asp-action="Contacts" class="nav_link">
-                        Контакты
-                    </a>
-                </li>
-                <li>
-                    <a asp-area="" asp-controller="Home" asp-action="Skills" class="nav_link">
-                        Навыки
-                    </a>
-                </li>
-            </ul>
-
-            <!--
-            <button class="nav_el btn btn_changetheme">
-                Сменить тему
-            </button>
-            -->
-        </nav>
+        <header>
+            <nav>
+                <h1>AK</h1>
+                <ul>
+                    <li><a class="link" asp-action="Index" asp-controller="Home">Главная</a></li>
+                    <li><a class="link" asp-action="Contacts" asp-controller="Home">Контакты</a></li>
+                    <li><a class="link" asp-action="Skills" asp-controller="Home">Навыки</a></li>
+                    <li><a class="link" asp-action="Index" asp-controller="Contacts">Написать мне</a></li>
+                </ul>
+            </nav>
+            <h1>Кирюхин Артем Сергеевич</h1>
+        </header>
     
         <main role="main">
             @RenderBody()
     </main>
-    <footer class="footer">
-        <section class="footer_section">
-            <h4>
-                    <a asp-area="" asp-controller="Contacts" asp-action="Index">
-                    Связаться со мной
-                </a>
-            </h4>
-        </section>
-    </footer>
+        <footer>
+            <h2>Мое резюме</h2>
+            <p>
+                <a class="link" asp-action="Index" asp-controller="Contacts">Написать мне</a>
+            </p>
+
+        </footer>
 
     
     </div>

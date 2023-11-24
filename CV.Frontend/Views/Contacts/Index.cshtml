@@ -1,41 +1,25 @@
 ﻿@using CV.Frontend.ViewModels;
 @model FeedbackViewModel
 
-<header class="header">
-    <h2 class="header_title">
-        Связаться со мной
-    </h2>
-</header>
-
-
+<div class="connect">
 <form asp-action="OnFeedback" asp-controller="Contacts" method="post">
-    <section class="section">
-        <h2 class="subtitle">
-            Тема сообщения
-        </h2>
-        <input asp-for="Title" class="input" type="text" placeholder="Например: реклама, оффер">
-        <span asp-validation-for="Title" class="text-danger"></span>
-
-    </section>
-    <section class="section">
-        <h2 class="subtitle">
-            Сообщение
-        </h2>
-        <textarea asp-for="Message" class="textarea" type="text"></textarea>
-        <span asp-validation-for="Message" class="text-danger"></span>
-
-
-
-
-    </section>
-    <section class="section">
-        <h2 class="subtitle">
-            Ваша почта
-        </h2>
-        <input asp-for="Mail" class="input" type="email">
-        <span asp-validation-for="Mail" class="text-danger"></span>
-
-
-    </section>
+    
+        <section>
+            <h3>Тема сообщения</h3>
+            <input type="text" asp-for="Title">
+            <span asp-validation-for="Title"></span>
+        </section>
+        <section>
+            <h3>Сообщение</h3>
+            <textarea asp-for="Message"></textarea>
+            <span asp-validation-for="Message"></span>
+        </section>
+        <section>
+            <h3>Ваш почтовый адрес</h3>
+            <input asp-for="Mail" type="email">
+            <span asp-validation-for="Mail"></span>
+        </section>
+    
     <button type="submit" class="btn_submit">Отправить</button>
 </form>
+</div>
